@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 
 COPY qcad-3.12.8-linux-x86_64.tar.gz /root/
 RUN cd /root && tar zxvf qcad-3.12.8-linux-x86_64.tar.gz
